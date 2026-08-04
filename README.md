@@ -262,51 +262,17 @@ The project includes comprehensive analysis across multiple business dimensions:
 
 # 📷 Project Visualizations
 
-## 📈 Monthly Sales & Profit Trend
+### 📈 Sales vs Profit Analysis
+![Sales vs Profit Analysis](images/sales_vs_profit_analysis.png)
 
-![Monthly Sales & Profit Trend](images/monthly_sales_profit_trend.png)
+### 🌍 Region-wise Sales and Profit
+![Region-wise Sales and Profit](images/region_wise_sales_profit.png)
 
----
+### 🚚 Shipping Cost Analysis
+![Shipping Cost Analysis](images/shipping_cost_analysis.png)
 
-## 💰 Sales vs Profit Analysis
-
-![Sales vs Profit](images/Sales vs Profit Analysis.png)
-
----
-
-## 📦 Category-wise Sales & Profit
-
-![Category Analysis](images/category_analysis.png)
-
----
-
-## 🎯 Discount vs Profit
-
-![Discount vs Profit](images/discount_vs_profit.png)
-
----
-
-## 📉 Correlation Heatmap
-
-![Correlation Heatmap](images/Correlation Heatmap.png)
-
----
-
-## 👥 Pareto Analysis (80/20 Rule)
-
-![Pareto Chart](images/pareto_chart.png)
-
----
-
-## 🚚 Shipping Cost Analysis
-
-![Shipping Cost Analysis](images/Shipping cost analysis.png)
-
----
-
-## 🌍 Region-wise Sales & Profit
-
-![Region Analysis](images/Region-wise sales and profit.png)
+### 🔥 Correlation Heatmap
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 ---
 
