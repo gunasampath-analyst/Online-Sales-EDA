@@ -270,7 +270,7 @@ The project includes comprehensive analysis across multiple business dimensions:
 
 ## 💰 Sales vs Profit Analysis
 
-![Sales vs Profit](images/sales_vs_profit.png)
+![Sales vs Profit](Sales vs Profit Analysis.png)
 
 ---
 
@@ -288,7 +288,7 @@ The project includes comprehensive analysis across multiple business dimensions:
 
 ## 📉 Correlation Heatmap
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](Correlation Heatmap.png)
 
 ---
 
@@ -300,13 +300,13 @@ The project includes comprehensive analysis across multiple business dimensions:
 
 ## 🚚 Shipping Cost Analysis
 
-![Shipping Cost Analysis](images/shipping_cost_analysis.png)
+![Shipping Cost Analysis](Shipping cost analysis.png)
 
 ---
 
 ## 🌍 Region-wise Sales & Profit
 
-![Region Analysis](images/region_analysis.png)
+![Region Analysis](Region-wise sales and profit.png)
 
 ---
 
