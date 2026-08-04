@@ -260,29 +260,6 @@ Performed the following preprocessing steps:
 * Build profitability prediction models
 * Add SQL-based business analysis
 
----
-
-# 📁 Project Files
-
-```text
-Online-Sales-Data-Analysis/
-
-│
-├── online_sales_eda.ipynb
-├── online_sales_dataset.csv
-├── README.md
-├── requirements.txt
-│
-└── images/
-    ├── monthly_sales_profit_trend.png
-    ├── sales_vs_profit.png
-    ├── category_analysis.png
-    ├── discount_vs_profit.png
-    ├── correlation_heatmap.png
-    ├── pareto_chart.png
-    ├── shipping_cost_analysis.png
-    └── region_analysis.png
-```
 
 ---
 
