@@ -7,30 +7,30 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-purple)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red)
 
+
 ---
 
-## 📄 Project Summary
+# 📄 Project Summary
 
 This project performs **Exploratory Data Analysis (EDA)** on an Online Sales dataset to uncover actionable business insights related to sales performance, profitability, customer behavior, product performance, discounts, shipping costs, and regional trends.
 
 Using **Python, Pandas, NumPy, Matplotlib, and Seaborn**, the analysis includes data cleaning, feature engineering, statistical exploration, and business-focused visualizations. Key analyses include sales and profit trends, profit margin analysis, customer Pareto analysis (80/20 rule), discount impact on profitability, shipping cost evaluation, correlation analysis, and identification of high-performing and loss-making products.
 
-The project demonstrates practical data analysis techniques and data storytelling skills to support data-driven business decision-making.
+The project demonstrates practical data analysis techniques and business storytelling skills to support data-driven decision-making.
 
 ---
 
-## 🎯 Problem Statement
+# 🎯 Problem Statement
 
 Businesses generate large volumes of sales data, but raw transactional data alone does not provide meaningful insights for decision-making. Organizations need to understand sales performance, profitability, customer purchasing behavior, product performance, discount strategies, and shipping costs to improve business outcomes.
 
-The objective of this project is to analyze an Online Sales dataset using Exploratory Data Analysis (EDA) to identify key trends, uncover hidden patterns, and generate actionable business insights. The analysis focuses on evaluating sales and profit performance across categories, products, customers, markets, and regions while examining the impact of discounts and shipping costs on profitability. These insights can help businesses optimize pricing strategies, improve operational efficiency, and support data-driven decision-making.
-
+The objective of this project is to analyze an Online Sales dataset using Exploratory Data Analysis (EDA) to identify key trends, uncover hidden patterns, and generate actionable business insights. The analysis focuses on evaluating sales and profit performance across categories, products, customers, markets, and regions while examining the impact of discounts and shipping costs on profitability.
 
 ---
 
-## 🎯 Business Objective
+# 🎯 Business Objective
 
-The primary objective of this project is to analyze online sales data and uncover actionable business insights that support data-driven decision-making. The analysis aims to evaluate sales performance, profitability, customer purchasing behavior, product performance, discount strategies, shipping costs, and regional trends.
+The primary objective of this project is to analyze online sales data and uncover actionable business insights that support data-driven decision-making.
 
 ### Objectives
 
@@ -38,75 +38,96 @@ The primary objective of this project is to analyze online sales data and uncove
 * Identify the most profitable and least profitable product categories.
 * Discover top-selling and loss-making products.
 * Evaluate the impact of discounts on profitability.
-* Analyze customer purchasing behavior using the Pareto (80/20) principle.
+* Analyze customer purchasing behavior using the Pareto (80/20) Principle.
 * Compare sales and profit across different markets and regions.
 * Evaluate shipping costs by market and shipping mode.
 * Calculate and compare profit margins across categories and markets.
 * Generate business insights to support pricing, marketing, and operational decisions.
 
-
 ---
 
-## 📂 Dataset Overview
+# 📂 Dataset Overview
 
-The dataset contains transactional records from an online retail business and provides information about customers, products, sales, profitability, shipping, and geographical markets. Each row represents a single sales transaction, making it suitable for analyzing business performance and customer purchasing behavior.
+The dataset contains transactional records from an online retail business and provides information about customers, products, sales, profitability, shipping, and geographical markets.
+
+Each row represents a single sales transaction, making it suitable for analyzing business performance and customer purchasing behavior.
 
 ### Dataset Details
 
 * **Dataset:** Online Sales Dataset
 * **Source:** Kaggle
+* **Dataset Link:** https://www.kaggle.com/datasets/yusufdelikkaya/online-sales-dataset
 * **Rows:** 51,290
 * **Columns:** 24+
 
 ### Key Features
 
-* Customer Information (Customer ID, Customer Name, Segment)
-* Product Details (Category, Sub-Category, Product Name, Product ID)
-* Sales Metrics (Sales, Profit, Quantity, Discount, Shipping Cost)
-* Order Information (Order ID, Order Date, Ship Date, Ship Mode, Order Priority)
-* Geographic Information (Country, City, State, Region, Market)
-* Time Features (Year, Week Number)
+* Customer Information
+* Product Information
+* Sales & Profit
+* Quantity & Discount
+* Shipping Cost
+* Order Details
+* Category & Sub-Category
+* Market & Region
+* Order & Shipping Dates
 
 ### Data Types
 
 * **Numerical:** Sales, Profit, Quantity, Discount, Shipping Cost
-* **Categorical:** Category, Sub-Category, Market, Region, Segment, Ship Mode, Order Priority
+* **Categorical:** Category, Sub-Category, Segment, Market, Region, Ship Mode
 * **Date:** Order Date, Ship Date
-
-This dataset enables comprehensive analysis of sales performance, profitability, customer behavior, product trends, discount strategies, shipping costs, and regional business performance.
-
 
 ---
 
-## ✅ Solution to Business Objective
+# 🛠️ Technologies Used
 
-To address the business objectives, a comprehensive **Exploratory Data Analysis (EDA)** was performed using Python. The dataset was cleaned, transformed, and analyzed through statistical methods and visualizations to uncover meaningful business insights.
+| Tool             | Purpose                      |
+| ---------------- | ---------------------------- |
+| Python           | Programming Language         |
+| Pandas           | Data Cleaning & Manipulation |
+| NumPy            | Numerical Computing          |
+| Matplotlib       | Data Visualization           |
+| Seaborn          | Statistical Visualization    |
+| Jupyter Notebook | Development Environment      |
+
+---
+
+# 🔄 Project Workflow
+
+```text
+Dataset
+   ↓
+Data Cleaning
+   ↓
+Feature Engineering
+   ↓
+Exploratory Data Analysis
+   ↓
+Data Visualization
+   ↓
+Business Insights
+```
+
+---
+
+# ✅ Solution to Business Objective
+
+To address the business objectives, a comprehensive Exploratory Data Analysis (EDA) was performed using Python.
 
 The analysis included:
 
-* Data cleaning and preprocessing to ensure data quality.
-* Feature engineering by creating **Profit Margin**, **Year**, and **Week Number**.
-* Sales and profit trend analysis across time, categories, markets, and regions.
-* Product performance analysis to identify top-selling and loss-making products.
-* Customer analysis using the **Pareto (80/20) Principle** to identify high-value customers.
-* Discount analysis to evaluate its impact on profitability.
-* Shipping cost analysis across different shipping modes and markets.
-* Correlation analysis to understand relationships between key business metrics.
-* Profit margin analysis to compare profitability across categories and markets.
+* Data cleaning and preprocessing
+* Feature engineering (Profit Margin, Year, Week Number)
+* Sales and profit trend analysis
+* Product performance analysis
+* Customer Pareto (80/20) analysis
+* Discount analysis
+* Shipping cost analysis
+* Correlation analysis
+* Profit margin analysis
 
-These analyses provide actionable insights that can help businesses optimize pricing strategies, improve profitability, reduce losses, manage shipping costs efficiently, and make informed, data-driven decisions.
-
-
----
-
-## 📝 Conclusion
-
-This project successfully analyzed the Online Sales dataset using **Exploratory Data Analysis (EDA)** to uncover valuable business insights into sales performance, profitability, customer behavior, product performance, discounts, shipping costs, and regional trends.
-
-The analysis revealed key factors influencing business performance, including the impact of discounts on profit, the identification of high-performing and loss-making products, customer purchasing patterns based on the Pareto (80/20) principle, and variations in sales and profit across different markets and regions. Profit margin analysis further highlighted opportunities to improve pricing and cost management.
-
-Overall, this project demonstrates how data analysis and visualization can transform raw sales data into actionable insights, enabling organizations to optimize business strategies, improve operational efficiency, and support informed decision-making. It also showcases practical skills in **Python, Pandas, NumPy, Matplotlib, Seaborn, feature engineering, and business-focused data storytelling**, making it a strong portfolio project for aspiring Data Analysts.
-
+These analyses provide actionable insights that help improve pricing strategies, profitability, operational efficiency, and business decision-making.
 
 ---
 
@@ -172,7 +193,7 @@ Overall, this project demonstrates how data analysis and visualization can trans
 
 ---
 
-## 👥 Pareto Analysis (Top Customers)
+## 👥 Pareto Analysis (80/20 Rule)
 
 ![Pareto Chart](images/pareto_chart.png)
 
@@ -192,21 +213,39 @@ Overall, this project demonstrates how data analysis and visualization can trans
 
 # 💡 Skills Demonstrated
 
-✅ Data Cleaning
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Feature Engineering
+* Data Visualization
+* Statistical Analysis
+* Business Storytelling
+* Business Problem Solving
+* Python Programming
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
 
-✅ Exploratory Data Analysis (EDA)
+---
 
-✅ Feature Engineering
+# 🚀 Future Improvements
 
-✅ Data Visualization
+* Develop an interactive Streamlit dashboard
+* Build a Power BI dashboard
+* Implement sales forecasting models
+* Perform customer segmentation
+* Develop machine learning models for profit prediction
+* Add SQL-based business analysis
 
-✅ Statistical Analysis
+---
 
-✅ Business Insight Generation
+# 📝 Conclusion
 
-✅ Business Problem Solving
+This project successfully analyzed an Online Sales dataset using Exploratory Data Analysis (EDA) to uncover valuable business insights into sales performance, profitability, customer behavior, product performance, discounts, shipping costs, and regional trends.
 
-✅ Python Data Analytics
+The findings highlight the relationship between sales, profit, discounts, customer purchasing behavior, and operational costs. These insights can help businesses optimize pricing strategies, improve profitability, enhance customer retention, and support data-driven decision-making.
+
+This project demonstrates practical skills in **Python, Pandas, NumPy, Matplotlib, Seaborn, feature engineering, statistical analysis, and business storytelling**, making it a strong portfolio project for aspiring Data Analysts.
 
 ---
 
@@ -214,6 +253,12 @@ Overall, this project demonstrates how data analysis and visualization can trans
 
 **Guna Sampath**
 
-Aspiring Data Analyst
+**Aspiring Data Analyst**
 
-**Skills:** Python | SQL | Power BI | Excel | Pandas | NumPy | Matplotlib | Seaborn | Data Visualization | Exploratory Data Analysis (EDA)
+**Skills:** Python • SQL • Power BI • Excel • Pandas • NumPy • Matplotlib • Seaborn • Data Visualization • Exploratory Data Analysis (EDA)
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
