@@ -274,6 +274,21 @@ The project includes comprehensive analysis across multiple business dimensions:
 ### 🔥 Correlation Heatmap
 ![Correlation Heatmap](https://github.com/gunasampath-analyst/Online-Sales-EDA/blob/0f65966418904ad1cf95a557a5eb274b29dc8990/correlation_heatmap.png)
 
+### 🌍 Average Profit Margin by Market
+![Average Profit Margin by Market](https://github.com/gunasampath-analyst/Online-Sales-EDA/blob/30626f7591c1a85212b54e4c48d4daddd5d7cef9/avg_profit_by_market.png)
+
+### 📉 Discount Distribution
+![Discount Distribution](https://github.com/gunasampath-analyst/Online-Sales-EDA/blob/30626f7591c1a85212b54e4c48d4daddd5d7cef9/dicount.png)
+
+### 📈 Yearly Profit by Category
+![Yearly Profit by Category](https://github.com/gunasampath-analyst/Online-Sales-EDA/blob/30626f7591c1a85212b54e4c48d4daddd5d7cef9/profit_by_category.png)
+
+### 📦 Sales by Category
+![Sales by Category](https://github.com/gunasampath-analyst/Online-Sales-EDA/blob/30626f7591c1a85212b54e4c48d4daddd5d7cef9/sales_by_category.png)
+
+### 📉 Top Loss-Making Products
+![Top Loss-Making Products](https://github.com/gunasampath-analyst/Online-Sales-EDA/blob/30626f7591c1a85212b54e4c48d4daddd5d7cef9/top_10_loss_products.png)
+
 ---
 
 # 📁 Project Structure
