@@ -263,16 +263,16 @@ The project includes comprehensive analysis across multiple business dimensions:
 # 📷 Project Visualizations
 
 ### 📈 Sales vs Profit Analysis
-![Sales vs Profit Analysis](images/sales_vs_profit_analysis.png)
+![Sales vs Profit Analysis](https://github.com/gunasampath-analyst/Online-Sales-EDA/blob/0f65966418904ad1cf95a557a5eb274b29dc8990/sales_vs_profit_analysis.png)
 
 ### 🌍 Region-wise Sales and Profit
-![Region-wise Sales and Profit](images/region_wise_sales_profit.png)
+![Region-wise Sales and Profit](https://github.com/gunasampath-analyst/Online-Sales-EDA/blob/0f65966418904ad1cf95a557a5eb274b29dc8990/region_wise_sales_profit.png)
 
 ### 🚚 Shipping Cost Analysis
-![Shipping Cost Analysis](images/shipping_cost_analysis.png)
+![Shipping Cost Analysis](https://github.com/gunasampath-analyst/Online-Sales-EDA/blob/0f65966418904ad1cf95a557a5eb274b29dc8990/shipping_cost_analysis.png)
 
 ### 🔥 Correlation Heatmap
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](https://github.com/gunasampath-analyst/Online-Sales-EDA/blob/0f65966418904ad1cf95a557a5eb274b29dc8990/correlation_heatmap.png)
 
 ---
 
